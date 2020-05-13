@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TestFeamwork.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GJJTestFramwork.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,21 +15,19 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestFeamwork"
+  spec.name         = "GJJTestFramwork"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestFeamwork."
+  spec.summary      = "GJJTestFramwork."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "测试测试测试测试测试测"
 
-  spec.homepage     = "http://EXAMPLE/TestFeamwork"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  spec.homepage     = "https://github.com/liuyahui02/GJJTestFramwork"
+  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.ex
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -38,8 +36,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,14 +61,14 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+   spec.ios.deployment_target = "8.0"
+   spec.osx.deployment_target = "10.7"
+   spec.watchos.deployment_target = "2.0"
+   spec.tvos.deployment_target = "9.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/TestFeamwork.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/liuyahui02/GJJTestFramwork", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
